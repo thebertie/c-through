@@ -26,9 +26,9 @@
  * Date: 04/24/17
  * Description: Used to configure and link a webscene
  * with corresponding attributes for visualization
- * and statistics. A webscene with a scene service 
- * that contains the following required attributes on 
- * unit level for each feature needs to be set-up first: 
+ * and statistics. A webscene with a scene service
+ * that contains the following required attributes on
+ * unit level for each feature needs to be set-up first:
  * - building id (int)
  * - floor level (int)
  * - usage (string)
@@ -70,15 +70,15 @@ define([
         // application settings
         var settings_demo = {
             name: "Demo",
-            url: "http://zurich.maps.arcgis.com",           // portal URL for config
-            webscene: "0af10b5e35ed4a5bbe095aa76b14b786",   // portal item ID of the webscene
-            usagename: "usage",                             // usage attribute (string)
-            floorname: "floorID",                           // floor attribute (int)
+            url: "https://4ct.maps.arcgis.com",           // portal URL for config
+            webscene: "cb8fc0788da741d18d150f568e57a49f",   // portal item ID of the webscene
+            usagename: "usageType",                             // usage attribute (string)
+            floorname: "floorLevel",                           // floor attribute (int)
             OIDname: "OBJECTID",                            // objectid
             buildingIDname: "buildingID",                   // building attribute (int)
-            areaname: "unitarea",                           // area attribute (float)
+            areaname: "area",                           // area attribute (float)
             color: [                                        // color ramp for unique value renderer
-                    [178, 171, 210, 1],                     
+                    [178, 171, 210, 1],
                     [253, 174, 97, 1],
                     [50, 136, 189, 1],
                     [102, 194, 165, 1],
@@ -228,7 +228,3 @@ define([
             }
         });
     });
-
-
-
-
