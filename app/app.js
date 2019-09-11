@@ -69,9 +69,9 @@ define([
 
         // application settings
         var settings_demo = {
-            name: "Demo",
+            name: "Holešovice test",
             url: "https://4ct.maps.arcgis.com",           // portal URL for config
-            webscene: "cb8fc0788da741d18d150f568e57a49f",   // portal item ID of the webscene
+            webscene: "cde07561d4c14c4aa530e63a461d61c9",   // portal item ID of the webscene
             usagename: "usageType",                             // usage attribute (string)
             floorname: "floorLevel",                           // floor attribute (int)
             OIDname: "OBJECTID",                            // objectid
