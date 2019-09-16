@@ -70,13 +70,13 @@ define([
         // application settings
         var settings_demo = {
             name: "Holešovice test",
-            url: "https://4ct.maps.arcgis.com",           // portal URL for config
-            webscene: "cde07561d4c14c4aa530e63a461d61c9",   // portal item ID of the webscene
-            usagename: "usageType",                             // usage attribute (string)
-            floorname: "floorLevel",                           // floor attribute (int)
+            url: "https://4ct.maps.arcgis.com",             // portal URL for config
+            webscene: "39de3ba2071f4dadb65b373ee3dcee1d",   // portal item ID of the webscene
+            usagename: "usageType",                         // usage attribute (string)
+            floorname: "floorLevel",                        // floor attribute (int)
             OIDname: "OBJECTID",                            // objectid
             buildingIDname: "buildingID",                   // building attribute (int)
-            areaname: "area",                           // area attribute (float)
+            areaname: "area",                               // area attribute (float)
             color: [                                        // color ramp for unique value renderer
                     [178, 171, 210, 1],
                     [253, 174, 97, 1],
@@ -222,7 +222,7 @@ define([
 
             getSettingsFromUser: function (settings) {
                 if (settings === "demo"){
-                    dom.byId("headerTitle").innerHTML = "c-through Demo";
+                    dom.byId("headerTitle").innerHTML = "c-through Holešovice";
                     return settings_demo;
                 }
             }

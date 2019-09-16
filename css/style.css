@@ -41,7 +41,7 @@ html, body {
     width: 100%;
   }
 
-.button{ 
+.button{
   font-size: 16px;
   padding: 2px;
   padding-left: 4px;
@@ -82,7 +82,7 @@ html, body {
 #welcomeTitle{
   left: 35%;
   top: 30%;
-  font-size: 35px;  
+  font-size: 35px;
 }
 
 .animate-bottom {
@@ -499,13 +499,13 @@ html, body {
 
 #titleStats{
   font-size: 18px;
-  padding-bottom: 10px; 
+  padding-bottom: 10px;
 }
 
 .buttonBelowGround {
   position: absolute;
   top: 10px;
-  right: 0px; 
+  right: 0px;
   padding-left: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
